@@ -117,6 +117,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VentanaClima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaClima.Designer.cs">
+      <DependentUpon>VentanaClima.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdministrarCultivos.resx">
       <DependentUpon>AdministrarCultivos.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +163,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="VentanaClima.resx">
+      <DependentUpon>VentanaClima.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
