@@ -92,6 +92,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gary.cs" />
     <Compile Include="GenerarReportes.cs">
       <SubType>Form</SubType>
     </Compile>
