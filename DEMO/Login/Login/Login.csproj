@@ -68,6 +68,7 @@
     <Compile Include="AdministrarCultivosEditar.Designer.cs">
       <DependentUpon>AdministrarCultivosEditar.cs</DependentUpon>
     </Compile>
+    <Compile Include="BD.cs" />
     <Compile Include="ConfiguracionGeneral.cs">
       <SubType>Form</SubType>
     </Compile>
